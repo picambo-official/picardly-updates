@@ -33,3 +33,7 @@ Gesetzliche Verbraucher-, Gewährleistungs- und Haftungsrechte bleiben unberühr
 Support: kontakt@picambo.com
 Rechtliche Fragen: legal@picambo.com
 Vollständige Anbieterinformationen findest du unter Anbieter & Kontakt.
+
+## Freiwillige Cloud-Funktion
+
+Sofern in der jeweiligen Ausgabe freigeschaltet, kannst du ein freiwilliges Konto und verschlüsselte Synchronisation nutzen. Du bist für die sichere Aufbewahrung deines Kontopassworts und Wiederherstellungsschlüssels verantwortlich. Ein Verlust sämtlicher Schlüssel kann die Wiederherstellung von Cloud-Karten unmöglich machen. Die Cloud ersetzt keine eigene Sicherung. Kostenlose Kapazitäten, Verbindungen und technische Verfügbarkeit sind begrenzt; eine jederzeitige Synchronisation wird nicht zugesagt. Die lokale Kartenverwaltung bleibt unabhängig davon nutzbar. Bei Änderungen der bereitgestellten Cloud-Funktion informieren wir angemessen; gesetzliche Rechte bleiben unberührt.
