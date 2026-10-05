@@ -36,8 +36,16 @@ Wähle Mehr → Verschlüsselt sichern. Vergib ein Passwort mit mindestens zwöl
 
 ## Wenn etwas nicht erkannt wird
 
-Nutze ein scharfes, ausreichend helles Bild ohne Spiegelungen. Der gesamte Code einschließlich seiner Ränder muss sichtbar sein. Schneide fremde Codes weg oder gib Nummer und Format manuell ein. Kartenbilder und Vorschläge bleiben korrigierbar. Bei Geräteverlust oder Deinstallation gibt es ohne eigene Sicherung keine automatische Wiederherstellung.
+Nutze ein scharfes, ausreichend helles Bild ohne Spiegelungen. Der gesamte Code einschließlich seiner Ränder muss sichtbar sein. Schneide fremde Codes weg oder gib Nummer und Format manuell ein. Kartenbilder und Vorschläge bleiben korrigierbar. Ohne eigene Sicherungsdatei oder zuvor erfolgreich eingerichtete Cloud-Synchronisation lassen sich Karten nach Geräteverlust oder Deinstallation nicht wiederherstellen. Für Cloud-Karten brauchst du dein Konto und den Wiederherstellungsschlüssel.
 
 ## Support und Updates
 
 Kontakt: kontakt@picambo.com. Nenne App-Version, Android-Version und die betroffene Funktion. Schwärze Karten- und Ausweisnummern in Beispielen. Die Play-Ausgabe erhält Updates über Google Play; direkte APK-Installationen verwenden den bisherigen GitHub-Updateweg. EULA, Datenschutz, Anbieterinformationen und Komponentenlizenzen findest du unter Mehr.
+
+## Konto und weitere Geräte
+
+Picardly bleibt ohne Konto und offline nutzbar. Ab Version 0.4.0 findest du unter Mehr → Konto & Synchronisation eine freiwillige Anmeldung. Bestätige deine E-Mail und schalte anschließend die Synchronisation ein. Bewahre den angezeigten Wiederherstellungsschlüssel außerhalb der App sicher auf. Auf dem zweiten Gerät meldest du dich mit demselben Konto an und gibst denselben Schlüssel ein.
+
+Alle lokalen Karten und Fotos werden beim Einschalten mit dem Konto zusammengeführt. Auch spätere Löschungen werden übertragen. Bei widersprüchlichen Änderungen wählst du die zu behaltende Fassung; bis dahin bleibt der Abgleich angehalten. Offline-Änderungen warten auf den nächsten erfolgreichen Abgleich bei geöffneter App. Die kostenlose Cloud hat begrenzte Kapazität. Ein Fehler oder Kontingentstopp löscht keine lokalen Karten.
+
+Abmelden behält deine lokalen Karten. Auf gemeinsam genutzten Geräten gegebenenfalls zusätzlich lokale Karten entfernen. „Synchronisation ausschalten“ löscht keine Cloud-Daten. Dafür gibt es „Konto und Cloud-Daten löschen“. Sichere regelmäßig zusätzlich als verschlüsselte Datei. Verlorene Wiederherstellungsschlüssel können durch den Support nicht zurückgesetzt werden.
