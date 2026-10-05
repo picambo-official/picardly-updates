@@ -1,14 +1,34 @@
 # Datenschutz für Picardly
 
-Stand: 5. Oktober 2026 · Android-App com.picambo.picardly.preview, Version 0.3.0
+Stand: 5. Oktober 2026 · Android-App com.picambo.picardly.preview, Version 0.4.0; ältere Ausgaben ohne Kontofunktion bleiben lokal
 
 ## Verantwortlicher
 
 Picambo UG (haftungsbeschränkt), An der Storchenhecke 1, 36251 Ludwigsau Rohrbach, Deutschland. Vertreten durch Hendrik Rößing. Datenschutz: legal@picambo.com. Allgemeiner Kontakt: kontakt@picambo.com.
 
-## Karten bleiben lokal
+## Lokale Nutzung ohne Konto
 
-Picardly speichert Kartennamen, statische Codes, Notizen, Kategorien sowie bestätigte Kartenbilder verschlüsselt im privaten App-Speicher. Texterkennung und Barcode-/QR-Auswertung verarbeiten Inhalte auf dem Gerät. Picambo betreibt keinen Kartenserver, benötigt kein Benutzerkonto und erhält deine Karteninhalte nicht automatisch. Fotos und Kartentexte werden nicht für Training oder eine externe KI-Auswertung hochgeladen. Es gibt keine Werbung und kein eigenes Analyse-SDK.
+Picardly speichert Kartennamen, statische Codes, Notizen, Kategorien sowie bestätigte Kartenbilder verschlüsselt im privaten App-Speicher. Texterkennung und Barcode-/QR-Auswertung verarbeiten Inhalte auf dem Gerät. Für die lokale Nutzung ist kein Benutzerkonto erforderlich. Ohne ausdrücklich eingeschaltete Synchronisation werden Karteninhalte nicht in eine Picardly-Cloud übertragen. Fotos und Kartentexte werden nicht für Training oder eine externe KI-Auswertung hochgeladen. Es gibt keine Werbung und kein eigenes Analyse-SDK.
+
+## Freiwilliges Konto und Synchronisation
+
+Ab Version 0.4.0 ist die Kontofunktion optional verfügbar. Erst beim Öffnen dieser eingerichteten Kontofunktion beziehungsweise beim Fortsetzen einer zuvor eingeschalteten Synchronisation wird Firebase für das Konto verwendet.
+
+Auf Wunsch kannst du ein Konto mit E-Mail-Adresse und Passwort erstellen. Firebase Authentication von Google verarbeitet hierfür E-Mail-Adresse, Kontokennung, Anmeldeinformationen und technische Verbindungs-/Sicherheitsdaten. E-Mail-Bestätigung und Passwort-Zurücksetzen gehören zur Kontoverwaltung. Kontodaten von Firebase Authentication werden laut Google in den USA verarbeitet. Google-Datenschutzhinweise: https://policies.google.com/privacy. Firebase-Verarbeitungsinformationen: https://firebase.google.com/support/privacy/.
+
+Die Synchronisation wird gesondert eingeschaltet. Dann werden alle Karten, Codes, Notizen, Kategorien und Bilder einschließlich geschützter Karten vor der Übertragung auf dem Gerät mit AES-256-GCM verschlüsselt und per HTTPS in Firebase Realtime Database übertragen. Datenbankstandort ist Belgien. Picambo und Google erhalten den Entschlüsselungsschlüssel nicht. Technisch sichtbar bleiben Kontokennung, verschlüsselte Datenmenge, Revisionskennung, Schlüsselprüfwert, Änderungszeit und Verbindungsdaten. Es erfolgt kein Training mit Karteninhalten.
+
+Dein zufällig erzeugter Wiederherstellungsschlüssel wird geschützt auf dem Gerät gespeichert. Du musst ihn selbst sicher aufbewahren und auf weiteren Geräten eingeben. Picambo kann ihn nicht wiederherstellen. Ein neues Kontopasswort ersetzt keinen verlorenen Schlüssel. Auf einem entsperrten, verbundenen Gerät können berechtigte Personen deine Karten lesen.
+
+Der Abgleich erfolgt bei eingeschalteter Funktion beim Öffnen und im Vordergrund nach Änderungen beziehungsweise regelmäßig. Ohne Internet bleiben Änderungen lokal. Gleichzeitige widersprüchliche Änderungen benötigen eine Auswahl. Löschungen werden ebenfalls auf verbundene Geräte übertragen. Die Cloud ist keine unveränderliche Sicherung; eigene Sicherungsdateien bleiben empfohlen.
+
+Die Verarbeitung dient der von dir angeforderten Kontoführung und geräteübergreifenden Kartenverwaltung (Art. 6 Abs. 1 lit. b DSGVO). Firebase wird als Dienstleister eingesetzt; Informationen zu Googles Auftragsverarbeitungsbedingungen und Übermittlungsmechanismen findest du unter https://firebase.google.com/terms/data-processing-terms. Die Funktion ist freiwillig und abschaltbar. Beim Abschalten bleibt die Cloud-Kopie erhalten, bis du das Konto löschst.
+
+## Cloud-Konto löschen
+
+Unter Mehr → Konto & Synchronisation kannst du das Konto samt Cloud-Karten nach erneuter Passwortbestätigung löschen. Ohne Zugriff auf die App kannst du die Löschung über legal@picambo.com anfordern; zur Zuordnung und Missbrauchsvermeidung wird die Kontoinhaberschaft geprüft. Sende keine Passwörter, Schlüssel oder Ausweiskopien.
+
+Cloud-Karten und Fotos werden beim erfolgreichen Löschvorgang entfernt, anschließend das Authentifizierungskonto. Nur eine technische Löschsperre unter der bisherigen Kontokennung bleibt bestehen, damit andere noch angemeldete Geräte keine Karten erneut hochladen. Sie enthält keine E-Mail-Adresse, Karteninhalte oder Fotos. Bei unterbrochener Kontolöschung kann der Vorgang wiederholt werden. Lokale Karten auf deinen Geräten, externe Sicherungen sowie gegebenenfalls gesetzlich aufzubewahrende Kontaktunterlagen werden getrennt behandelt.
 
 ## Kamera, Galerie und Gerätesperre
 
