@@ -1,6 +1,6 @@
 # Datenschutz für Picardly
 
-Stand: 5. Oktober 2026 · Android-App com.picambo.picardly.preview, Version 0.4.0; ältere Ausgaben ohne Kontofunktion bleiben lokal
+Stand: 9. Oktober 2026 · Android: com.picambo.picardly.preview; iOS: com.picambo.picardly (in Vorbereitung). Kontofunktion ab Version 0.4.0.
 
 ## Verantwortlicher
 
@@ -32,13 +32,13 @@ Cloud-Karten und Fotos werden beim erfolgreichen Löschvorgang entfernt, anschli
 
 ## Kamera, Galerie und Gerätesperre
 
-Die Kamera dient freiwilligen Aufnahmen. Die Systemauswahl gibt die von dir ausgewählten Bilder oder Dateien frei; Picardly durchsucht nicht selbst deine gesamte Galerie. Eigene temporäre Arbeitskopien werden nach der Verarbeitung entfernt. Externe Kamera- und Galerie-Apps behalten gegebenenfalls ihre Originale. Ausweis- und Zugangskarten können die Android-Gerätesperre verwenden. Biometrische Merkmale oder dein Geräte-PIN werden dabei nicht an Picardly übermittelt. Standort, Kontakte und Mikrofon werden nicht angefordert.
+Die Kamera dient freiwilligen Aufnahmen. Die Systemauswahl gibt die von dir ausgewählten Bilder oder Dateien frei; Picardly durchsucht nicht selbst deine gesamte Galerie. Eigene temporäre Arbeitskopien werden nach der Verarbeitung entfernt. Externe Kamera- und Galerie-Apps behalten gegebenenfalls ihre Originale. Ausweis- und Zugangskarten können die Gerätesperre des Betriebssystems verwenden. Biometrische Merkmale oder dein Geräte-PIN werden dabei nicht an Picardly übermittelt. Standort, Kontakte und Mikrofon werden nicht angefordert.
 
 ## Google ML Kit
 
-Texterkennung und Barcode-Erkennung verwenden Google ML Kit. Google beschreibt die Verarbeitung von Bildern, Texten und Erkennungsergebnissen als lokal. Die SDKs können jedoch technische Geräte-/Appinformationen, Installationskennungen, Nutzung von Erkennungsfunktionen, Leistungswerte und Fehlercodes für Diagnose und Nutzungsanalyse per HTTPS übertragen. Diese Daten sind von deinen Karteninhalten zu unterscheiden. Die App bietet keine globale Abschaltung dieser SDK-Telemetrie.
+Die Texterkennung verwendet Google ML Kit. Die Barcode-Erkennung verwendet unter Android ML Kit und unter iOS Apple Vision/AVFoundation. Google beschreibt die Verarbeitung von Bildern, Texten und Erkennungsergebnissen als lokal. Die SDKs können jedoch technische Geräte-/Appinformationen, Installationskennungen, Nutzung von Erkennungsfunktionen, Leistungswerte und Fehlercodes für Diagnose und Nutzungsanalyse per HTTPS übertragen. Diese Daten sind von deinen Karteninhalten zu unterscheiden. Die App bietet keine globale Abschaltung dieser SDK-Telemetrie.
 
-Quellen: https://developers.google.com/ml-kit/terms und https://developers.google.com/ml-kit/android-data-disclosure. Googles Datenschutzhinweise: https://policies.google.com/privacy.
+Quellen: https://developers.google.com/ml-kit/terms und https://developers.google.com/ml-kit/android-data-disclosure sowie https://developers.google.com/ml-kit/ios-data-disclosure. Googles Datenschutzhinweise: https://policies.google.com/privacy.
 
 ## Optionale Firmenlogos
 
@@ -46,11 +46,11 @@ Bei bekannten Anbietern lädt Picardly Logos von Wikimedia Commons. Übertragen 
 
 ## Sicherungen, Export und Löschen
 
-Eine Sicherung wird erst auf deinen Wunsch erstellt und mit deinem gewählten Passwort verschlüsselt. Dieses Passwort wird nicht gespeichert. Du wählst die Datei beziehungsweise das Speicherziel selbst; bei einem Cloud-Ziel gelten die Bedingungen des jeweiligen Anbieters. Einzelne Karten kannst du in der Detailansicht löschen. Exporte und Originale außerhalb der App müssen dort getrennt gelöscht werden. Automatisches Android-App-Backup ist deaktiviert. Deinstallation oder Entfernen des App-Speichers kann alle lokalen Karten und Schlüssel löschen.
+Eine Sicherung wird erst auf deinen Wunsch erstellt und mit deinem gewählten Passwort verschlüsselt. Dieses Passwort wird nicht gespeichert. Du wählst die Datei beziehungsweise das Speicherziel selbst; bei einem Cloud-Ziel gelten die Bedingungen des jeweiligen Anbieters. Einzelne Karten kannst du in der Detailansicht löschen. Exporte und Originale außerhalb der App müssen dort getrennt gelöscht werden. Automatisches Android-App-Backup ist deaktiviert. Unter iOS wird der private Kartenspeicher vom automatischen Gerätebackup ausgeschlossen; Picardly-Schlüssel werden ohne iCloud-Synchronisierung und ohne Gerätemigration im Schlüsselbund gespeichert. iOS kann Schlüsselbund-Einträge nach Deinstallation behalten. Deinstallation oder Entfernen des App-Speichers kann alle lokalen Karten und Schlüssel löschen.
 
 ## Updates und externe Seiten
 
-Die Google-Play-Ausgabe prüft und installiert keine externen APK-Updates. Updates werden von Google Play bereitgestellt. Die direkt verteilte APK fragt GitHub nach neueren Versionen und lädt eine APK erst nach deiner Auswahl. GitHub erhält übliche IP-/HTTP-Verbindungsdaten, keine Karteninhalte. Hinweise: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Beim Öffnen externer Seiten gelten deren Datenschutzhinweise.
+Die iOS-Ausgabe erhält Updates über den Apple App Store und lädt keine APK-Dateien. Die Google-Play-Ausgabe prüft und installiert keine externen APK-Updates. Updates werden von Google Play bereitgestellt. Die direkt verteilte APK fragt GitHub nach neueren Versionen und lädt eine APK erst nach deiner Auswahl. GitHub erhält übliche IP-/HTTP-Verbindungsdaten, keine Karteninhalte. Hinweise: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Beim Öffnen externer Seiten gelten deren Datenschutzhinweise.
 
 ## Zweck und Aufbewahrung
 
