@@ -1,6 +1,6 @@
 # Picardly – Nutzungsbedingungen (EULA)
 
-Stand: 5. Oktober 2026
+Stand: 9. Oktober 2026
 
 ## Anbieter und Lizenz
 
@@ -22,7 +22,7 @@ Karten und bestätigte Bilder werden verschlüsselt im privaten App-Speicher ges
 
 ## Externe Dienste und Updates
 
-Optionale Firmenlogos kommen von Wikimedia Commons und können dort geändert oder entfernt werden. Bei fehlendem Logo kannst du ein Kartenfoto oder eigenes Bild verwenden. Updates der Google-Play-Ausgabe erfolgen über Google Play. Die direkte APK-Ausgabe bietet die bisherige GitHub-Updatefunktion. Die Verfügbarkeit externer Dienste wird nicht dauerhaft zugesichert. Weitere Angaben stehen unter Datenschutz.
+Optionale Firmenlogos kommen von Wikimedia Commons und können dort geändert oder entfernt werden. Bei fehlendem Logo kannst du ein Kartenfoto oder eigenes Bild verwenden. Updates der iOS-Ausgabe erfolgen über den Apple App Store, Updates der Google-Play-Ausgabe über Google Play. Die direkte APK-Ausgabe bietet die bisherige GitHub-Updatefunktion. Die Verfügbarkeit externer Dienste wird nicht dauerhaft zugesichert. Weitere Angaben stehen unter Datenschutz.
 
 ## Gesetzliche Rechte
 
